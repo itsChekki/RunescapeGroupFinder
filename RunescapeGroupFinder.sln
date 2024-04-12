@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunescapeGroupFinder.Models", "RunescapeGroupFinder.Models\RunescapeGroupFinder.Models.csproj", "{FA386ED3-33E5-4E71-B167-86F6B6D296BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunescapeGroupFinder.Models", "src/RunescapeGroupFinder.Models\RunescapeGroupFinder.Models.csproj", "{FA386ED3-33E5-4E71-B167-86F6B6D296BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunescapeGroupFinder.Backend", "RunescapeGroupFinder.Backend\RunescapeGroupFinder.Backend.csproj", "{188577D1-3965-4201-A19A-634226BB38C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunescapeGroupFinder.Backend", "src/RunescapeGroupFinder.Backend\RunescapeGroupFinder.Backend.csproj", "{188577D1-3965-4201-A19A-634226BB38C6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FBA804C2-2C4E-40F6-BF39-89DAAC7343B0}"
 EndProject
