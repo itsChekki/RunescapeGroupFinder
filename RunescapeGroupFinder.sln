@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunescapeGroupFinder.Backend", "RunescapeGroupFinder.Backend\RunescapeGroupFinder.Backend.csproj", "{53052881-C724-487B-BE02-08A35A8AABF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunescapeGroupFinder.Models", "RunescapeGroupFinder.Models\RunescapeGroupFinder.Models.csproj", "{FA386ED3-33E5-4E71-B167-86F6B6D296BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunescapeGroupFinder.Backend", "RunescapeGroupFinder.Backend\RunescapeGroupFinder.Backend.csproj", "{188577D1-3965-4201-A19A-634226BB38C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FBA804C2-2C4E-40F6-BF39-89DAAC7343B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunescapeGroupFinder.Backend.Tests", "test\RunescapeGroupFinder.Backend.Tests\RunescapeGroupFinder.Backend.Tests.csproj", "{EF29AA26-9C86-4245-B296-148E5924F80A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +14,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{53052881-C724-487B-BE02-08A35A8AABF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53052881-C724-487B-BE02-08A35A8AABF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53052881-C724-487B-BE02-08A35A8AABF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53052881-C724-487B-BE02-08A35A8AABF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA386ED3-33E5-4E71-B167-86F6B6D296BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA386ED3-33E5-4E71-B167-86F6B6D296BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA386ED3-33E5-4E71-B167-86F6B6D296BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA386ED3-33E5-4E71-B167-86F6B6D296BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188577D1-3965-4201-A19A-634226BB38C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188577D1-3965-4201-A19A-634226BB38C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188577D1-3965-4201-A19A-634226BB38C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188577D1-3965-4201-A19A-634226BB38C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF29AA26-9C86-4245-B296-148E5924F80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF29AA26-9C86-4245-B296-148E5924F80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF29AA26-9C86-4245-B296-148E5924F80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF29AA26-9C86-4245-B296-148E5924F80A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF29AA26-9C86-4245-B296-148E5924F80A} = {FBA804C2-2C4E-40F6-BF39-89DAAC7343B0}
 	EndGlobalSection
 EndGlobal
