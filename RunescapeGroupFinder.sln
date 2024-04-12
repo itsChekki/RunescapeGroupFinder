@@ -8,6 +8,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FBA804C2-2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunescapeGroupFinder.Backend.Tests", "test\RunescapeGroupFinder.Backend.Tests\RunescapeGroupFinder.Backend.Tests.csproj", "{EF29AA26-9C86-4245-B296-148E5924F80A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{16107A74-A0B8-45F2-AC98-E00C2443E334}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,5 +31,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EF29AA26-9C86-4245-B296-148E5924F80A} = {FBA804C2-2C4E-40F6-BF39-89DAAC7343B0}
+		{188577D1-3965-4201-A19A-634226BB38C6} = {16107A74-A0B8-45F2-AC98-E00C2443E334}
+		{FA386ED3-33E5-4E71-B167-86F6B6D296BC} = {16107A74-A0B8-45F2-AC98-E00C2443E334}
 	EndGlobalSection
 EndGlobal
