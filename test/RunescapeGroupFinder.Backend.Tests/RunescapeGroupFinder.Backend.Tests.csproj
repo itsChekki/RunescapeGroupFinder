@@ -25,6 +25,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\RunescapeGroupFinder.Backend\RunescapeGroupFinder.Backend.csproj" />
+      <ProjectReference Include="..\..\src\RunescapeGroupFinder.Backend\RunescapeGroupFinder.Backend.csproj" />
     </ItemGroup>
 
 </Project>
